@@ -8,11 +8,11 @@ boot=function(muestra,rep,operacion,...){
   #muestra: es la muestra que trabajaremos
   #rep: el número de veces que remuestramos a partir de la muestra original
   #operacion,... : indica el estadístico que queremos estimar mediante el bootstrap
-  tamaño=length(muestra)
+  tama=length(muestra)
   #sabemos de qué tamaño es nuestra muestra
-  acumular=rep(NA,tamaño) #aquí guardamos nuestras estimaciones
+  acumular=rep(NA,tama) #aquí guardamos nuestras estimaciones
   for(i in 1:rep){ #empezamos el bucle
-    muestra.b=sample(muestra,tama?o,TRUE) #sacamos nuestra muestra bootstrap
+    muestra.b=sample(muestra,tama,TRUE) #sacamos nuestra muestra bootstrap
     acumular[i]=operacion(muestra.b,...) #acumulamos el estadístico de interés
   } #cerramos el bucle
   estad.b=mean(acumular) #calculamos la estimación bootstrap
