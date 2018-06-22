@@ -1,0 +1,16 @@
+bootstrap
+En el algoritmo definimos nuestra funcion "boot" que emulara el metodo de bootstrap,
+con sus respectivos argumentos "muestra"(es la muestra en la que trabajaremos),
+"rep"(determina el numero de repeticiones de la muestra original),"operacion"(determina el
+estadistico que queremos hallar),haremos uso de un buclo para poder realizar todas las repeticiones
+de las muestras, y acumular el estadistico que deseamos hallar,finalmente determinamos
+o calculamos la estimacion y error estandar de la muestra,para finalmente listar los resultados
+
+jackknife
+En el algoritmo definimos la funcion "jack" que simulara el metodo de jackknife,
+con sus variables "datos"(la muestra),"fun"(el estadistico que deseamos hallar),
+determinamos el tamaño de la muestra dada,y una variable "acumular[]"(que guardara 
+nuestras estimaciones),haciendo uso de un bucle "for()",para almacenar el estadistico de interes,
+y calcular la estimacion, error estandar y sesgo, y mostrar los resultados,finalmente 
+dada una muestra, haremos uso de diferentes tipos de estadisticos y hallar sus respectivos 
+valores
