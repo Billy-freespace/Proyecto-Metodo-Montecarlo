@@ -1,8 +1,11 @@
 
-# Nombre : Fidel Callupe Ganoza 20131319E
+## Integrantes : 
+# - Fidel Callupe Ganoza 20131319E
+# - Nicolás Rojas Minaya 20170616G
+# - Guillermo Borjas Córdova 20090312A
 
 # A)
-#realizaremos una funcion y la verificaremos con unos casos
+#realizaremos una funcion que realizara las condiciones pedidas
 matinvert<-function(mylist,noinv,nonmat,silent1){
   if(is.list(mylist)){
     if(length(mylist) != 0){
@@ -31,6 +34,7 @@ matinvert<-function(mylist,noinv,nonmat,silent1){
   }
   return(mylist)
 }
+#evaluamos la funcion en cada caso
 #caso 1
 mat1<-matinvert(mylist=list(1:4,matrix(1:4,1,4),matrix(1:4,4,1),matrix(1:4,2,2)),NA,"no es matriz!",TRUE)
 mat1

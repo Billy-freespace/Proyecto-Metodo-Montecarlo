@@ -1,8 +1,12 @@
 
-# Nombre : Fidel Callupe Ganoza 20131319E
+## Integrantes : 
+# - Fidel Callupe Ganoza 20131319E
+# - Nicolás Rojas Minaya 20170616G
+# - Guillermo Borjas Córdova 20090312A
 
 # A)
-#hacemos un bucle while para hacer un factorial
+#hacemos un bucle while para hacer un factorial, y seguidamente evaluamos
+#en cada caso dado
 #case 1
 minum<- 5
 producto <- 1
@@ -46,7 +50,8 @@ while(minum>=0){
 producto
 
 # B)
-#completamos el while,dando siertas condiciones
+#completamos el while
+#dando ciertas condiciones a evaluar
 mystring <- "R fever"
 index <- 1
 ecount <- 0

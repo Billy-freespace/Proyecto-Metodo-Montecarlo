@@ -1,5 +1,7 @@
-
-# Nombre : Fidel Callupe Ganoza 20131319E
+# Integrantes : 
+# - Fidel Callupe Ganoza 20131319E
+# - Nicolás Rojas Minaya 20170616G
+# - Guillermo Borjas Córdova 20090312A
 
 # A)
 #los primeros 20 elementos del paquete methods

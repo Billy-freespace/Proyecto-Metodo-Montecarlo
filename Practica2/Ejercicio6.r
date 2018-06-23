@@ -1,5 +1,8 @@
 
-# Nombre : Fidel Callupe Ganoza 20131319E
+## Integrantes : 
+# - Fidel Callupe Ganoza 20131319E
+# - Nicolás Rojas Minaya 20170616G
+# - Guillermo Borjas Córdova 20090312A
 
 # A)
 #devuelve la transpuesta de cada matriz de la lista usando un ciclo for()
