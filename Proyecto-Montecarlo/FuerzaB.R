@@ -1,8 +1,4 @@
-#exponencial FUERZA BRUTA
-#Definimos la curva
-curve(exp,0.5,3.5,lwd=2,axes = F,xlab='',ylab = '')
-#Estableciendo el eje x
-axis(1)
+
 #Establecemos los parametros
 t <-seq(1,3,by = 0.01)
 x <- c(1,t,3)
