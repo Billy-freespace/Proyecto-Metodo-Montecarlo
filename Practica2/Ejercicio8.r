@@ -5,7 +5,9 @@
 # - Guillermo Borjas Córdova 20090312A
 
 # A)
-#realizaremos una funcion que realizara las condiciones pedidas
+#Realizamos una funcion que invierte cada matriz en una lista
+#Tomando en cuenta las condiciones dadas
+#Y finalmente, devolvemos la lista modificada
 matinvert<-function(mylist,noinv,nonmat,silent1){
   if(is.list(mylist)){
     if(length(mylist) != 0){
@@ -34,7 +36,7 @@ matinvert<-function(mylist,noinv,nonmat,silent1){
   }
   return(mylist)
 }
-#evaluamos la funcion en cada caso
+#evaluamos la funcion en cada caso dado
 #caso 1
 mat1<-matinvert(mylist=list(1:4,matrix(1:4,1,4),matrix(1:4,4,1),matrix(1:4,2,2)),NA,"no es matriz!",TRUE)
 mat1

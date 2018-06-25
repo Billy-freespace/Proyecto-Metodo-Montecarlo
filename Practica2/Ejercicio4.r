@@ -5,7 +5,7 @@
 # - Guillermo Borjas Córdova 20090312A
 
 # A)
-#bucle for dado
+#Analizamos un doble bucle for, dado originalmente por el problema
 loopvec1 <- 5:7
 loopvec2 <- 9:6
 mat1 <- matrix(NA,length(loopvec1),length(loopvec2))
@@ -16,7 +16,8 @@ for(i in 1:length(loopvec1)){
     }
   }
 mat1
-#convertimos el doble bucle for, en un solo bucle for 
+
+#Convertimos el doble bucle for, en un solo bucle for, usando "if"
 loopvec1 <- 5:7
 loopvec2 <- 9:6
 mat1 <- matrix(NA,length(loopvec1),length(loopvec2))
@@ -35,7 +36,8 @@ for(i in 1:limit){
 mat1
 
 # B)
-#hacemos uso del comando switch
+#Este codigo toma un vector de caracteres y devuelve un vector de los valores numericos
+#apropiados relacionado a la cadena de caracteres
 mystring<-c("Peter","Homer","Lois","Stewie","Maggie","Bart")
 for(i in 1:length(mystring)){
   mystring[i]<-switch(EXPR=mystring[i],Homer=12,Marge=34,Bart=56,Lisa=78,Maggie=90,NA)
@@ -43,7 +45,7 @@ for(i in 1:length(mystring)){
 mystring
 
 # C)
-# hacemos bucles anidados para realizar busquedas en datos tipo list
+#Hacemos bucles anidados para realizar busquedas en datos tipo list
 #y evaluamos en cada caso dado
 #caso 1
 mylist <- list(aa=c(3.4,1),bb=matrix(1:4,2,2),cc=matrix(c(T,T,F,T,F,F),3,2),dd="string here",

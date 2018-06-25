@@ -4,7 +4,7 @@
 # - Guillermo Borjas Córdova 20090312A
 
 # A)
-#los primeros 20 elementos del paquete methods
+#Los primeros 20 elementos del paquete methods son los siguientes:
 ls("package:methods")
 #[1] "addNextMethod"                  
 #[2] "allGenerics"                    
@@ -27,16 +27,16 @@ ls("package:methods")
 #[19] "checkAtAssignment"              
 #[20] "checkSlotAssignment" 
 
-#hay en total 218 items
+#Hay en total 218 items en el paquete methods
 
 # B)
-#determina el entorno que posee cada funcion
+#Determina el entorno que posee cada funcion
 environment(read.table)
 environment(data)
 environment(matrix)
 environment(jpeg)
 
 # C)
-#usamos ls para confirmar que "smoothScatter" es parte del paquete graphics
+#Usamos ls para confirmar que "smoothScatter" es parte del paquete graphics
 ls("package:graphics")=="smoothScatter"
 

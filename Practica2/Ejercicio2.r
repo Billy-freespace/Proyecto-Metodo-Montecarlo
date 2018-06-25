@@ -5,6 +5,8 @@
 # - Guillermo Borjas Córdova 20090312A
 
 # A)
+#En cada linea de codigo,se identifica que estilo de coincidencia de 
+#argumentos se esta utilizando
 array(8:1,dim=c(2,2,2))
 rep(1:2,3)
 seq(from=10,to=8,length=5)

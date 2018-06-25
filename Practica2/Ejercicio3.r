@@ -5,9 +5,12 @@
 # - Guillermo Borjas Córdova 20090312A
 
 # A)
-#creamos los vectores vec1 y vec2
+#Creamos los vectores vec1 y vec2
 vec1 <- c(2,1,1,3,2,1,0)
 vec2 <- c(3,8,2,2,0,0,0)
+#Determina cual de las siguientes declaraciones "if" tendra como
+#resultado que cadena se imprime en la consola
+
 #vec1[1]=2 y vec2[2]=8, la suma = 10, imprimer
 if((vec1[1]+vec2[2])==10){ cat("Print me!") }
 
@@ -21,17 +24,19 @@ if(all((vec2-vec1)[c(2,6)]<7)){ cat("Print me!") }
 if(!is.na(vec2[3])){ cat("Print me!") }
 
 # B)
-#actualizo los vectores para evitar fallos
+#Actualizo los vectores para evitar fallos
 vec1 <- c(2,1,1,3,2,1,0)
 vec2 <- c(3,8,2,2,0,0,0)
 y <- vec1+vec2
-#si suma de los vectores es mayor a 3, realiza el producto sino hace la suma
+#Si la suma de los vectores es mayor a 3, realiza el producto sino hace la suma
 result <- ifelse(test = y > 3,yes = vec1*vec2,no= vec1+vec2)
 result
 
 
 # C)
-#creamos las condiciones if y else y evaluamos las matrices
+#Toma una matriz de caracteres cuadrada y comprueba si alguna de las cadenas de caracteres
+#en la diagonal comienza con una legra "g" o "G"
+#Evaluamos en cada caso dado
 #caso 1
 mymat <- matrix(as.character(1:16),4,4)
 mymat.d <- diag(x=mymat)

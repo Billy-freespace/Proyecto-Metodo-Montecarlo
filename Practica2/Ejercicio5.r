@@ -5,8 +5,9 @@
 # - Guillermo Borjas Córdova 20090312A
 
 # A)
-#hacemos un bucle while para hacer un factorial, y seguidamente evaluamos
+#Hacemos uso de un bucle while para hallar el factorial, y seguidamente evaluamos
 #en cada caso dado
+
 #case 1
 minum<- 5
 producto <- 1
@@ -50,8 +51,8 @@ while(minum>=0){
 producto
 
 # B)
-#completamos el while
-#dando ciertas condiciones a evaluar
+#Analizamos el algoritmo dado por el problema,completamos el ciclo while
+#y evaluamos  el objeto "mystring" 
 mystring <- "R fever"
 index <- 1
 ecount <- 0

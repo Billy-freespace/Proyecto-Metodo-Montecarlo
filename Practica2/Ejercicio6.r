@@ -5,7 +5,7 @@
 # - Guillermo Borjas Córdova 20090312A
 
 # A)
-#devuelve la transpuesta de cada matriz de la lista usando un ciclo for()
+#Devuelve la transpuesta de cada matriz de la lista usando un ciclo "for"
 matlist <- list(matrix(c(T,F,T,T),2,2),matrix(c("a","c","b","z","p","q"),3,2),matrix(1:8,2,4))
 matlist
 for(i in 1:length(matlist)){
